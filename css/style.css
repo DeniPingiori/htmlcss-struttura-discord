@@ -27,22 +27,34 @@ header {
     gap: 300 px;
 }
 
-.col-20 {
-    width:20%;
+.col-15 {
+    width:15%;
     background-color: rgb(243, 148, 6);
     border:1px solid black;
 }
 
+.col-40 {
+    width:40%;
+    background-color: pink;
+    border: 1px solid black;
+    height: 300px;
+}
 .col-60 {
     width:60%;
-    background-color:rgb(243, 148, 6); 
-    border:1px solid black;
+    background-color: rgb(6, 113, 243) ;
+    border: 1px solid black;
+}       
+.col-70 {
+    width:70%;
+    background-color:rgb(242, 148, 6); 
+    border:1px solid rgb(0, 0, 0);
 }
+
 
 .col-100 {
     width: 100%;
     border: 1px solid black;
-    background-color: pink;
+    background-color: rgb(146, 48, 115);
     height: 300px;
 }
 /*utility*/
@@ -52,6 +64,14 @@ header {
 
 .text-center {
     text-align: center;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-50 {
+    padding: 50px 0;
 }
 /*specifics styling selections and classes*/
 ul.text-center {
@@ -64,8 +84,10 @@ ul.text-center li {
 
 .bg-darkblue {
     background-color: darkblue;
-    padding: 20px 0;
+    padding: 50px 0;
 }
-.py-10 {
-    padding: 10px 0;
+
+.bg-grey {
+    padding: 50px 0;
+    background-color: grey ;
 }
