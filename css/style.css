@@ -87,6 +87,9 @@ footer {
 .py-50 {
     padding: 50px 0;
 }
+.justify-between {
+    justify-content: space-between;
+}
 /*specifics styling selections and classes*/
 ul.text-center {
     list-style-type: none;
@@ -110,16 +113,26 @@ ul.text-center li {
     background-color: darkgreen;
 }
 
+.bg-lightaqua {
+    background-color: aquamarine;
+    padding: 20px 0;
+}
 .h-700 {
     height:700px;
 }
 
 .top-footer {
     border-bottom: 1px solid grey;
-    padding: 5px 0 15 px 0;
+    padding: 15px 0 40 px 0;
 }
 
 .bottom-footer {
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
+.box-bottom-footer {
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 10px;
+
+}
